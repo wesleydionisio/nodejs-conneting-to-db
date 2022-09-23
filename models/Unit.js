@@ -6,13 +6,14 @@ const Unit = db.sequelize.define('unidades', {
         type: db.Sequelize.STRING
     },
     urlAgenda: {
-        type: db.Sequelize.TEXT
+        type: db.Sequelize.STRING
     },
     status: {
         type: db.Sequelize.BOOLEAN,
         defaultValue: true
     }
 
-})
+});
+
 
 module.exports = Unit

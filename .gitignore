@@ -125,5 +125,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-models/Database.js
-models/credentials.js
+models/Credential.js
